@@ -4,35 +4,87 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="content/css/main.css" />
 		<title>Omnifood</title>
 	</head>
 	<body>
-		<section class="hero">
-			<div class="hero__container">
-				<div class="hero__text">
-					<h1 class="hero__title">
-						A healthy meal delivered to your door, every single day
-					</h1>
-					<p class="hero__description">
-						The smart 365-days-per-year food subscription that will make you eat
-						healthy again. Tailored to your personal tastes and nutritional
-						needs. We have delivered 250,000+ meals last year!
-					</p>
-					<a href="#" class="btn btn--full margin-right-sm"
-						>Start eating well</a
-					>
-					<a href="#" class="btn btn--outline">Learn more &darr;</a>
+		<header class="section-header">
+			<img
+				class="header-logo"
+				src="./content/assets/img/omnifood-logo.png"
+				alt="omnifood-logo"
+			/>
+			<nav>
+				<ul class="nav-list">
+					<li><a class="nav-item" href="#">How it works</a></li>
+					<li><a class="nav-item" href="#">Meals</a></li>
+					<li><a class="nav-item" href="#">Testimonials</a></li>
+					<li><a class="nav-item" href="#">Pricing</a></li>
+					<li><a class="nav-item nav-cta" href="#">Try for free</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main">
+			<section class="section-hero">
+				<div class="hero-container">
+					<div class="hero-heading">
+						<h1 class="hero-title">
+							A healthy meal delivered to your door, every single day
+						</h1>
+						<p class="hero-description">
+							The smart 365-days-per-year food subscription that will make you
+							eat healthy again. Tailored to your personal tastes and
+							nutritional needs. We have delivered 250,000+ meals last year!
+						</p>
+						<a href="#" class="btn btn--full margin-right-sm"
+							>Start eating well</a
+						>
+						<a href="#" class="btn btn--outline">Learn more &darr;</a>
+						<div class="delivered-meals">
+							<div class="delivered-imgs">
+								<img
+									src="./content/assets/img/customers/customer-1.jpg"
+									alt="customer"
+								/>
+								<img
+									src="./content/assets/img/customers/customer-2.jpg"
+									alt="customer"
+								/>
+								<img
+									src="./content/assets/img/customers/customer-3.jpg"
+									alt="customer"
+								/>
+								<img
+									src="./content/assets/img/customers/customer-4.jpg"
+									alt="customer"
+								/>
+								<img
+									src="./content/assets/img/customers/customer-5.jpg"
+									alt="customer"
+								/>
+								<img
+									src="./content/assets/img/customers/customer-6.jpg"
+									alt="customer"
+								/>
+							</div>
+							<p class="delivered-text">
+								<span>250,000+</span> meals delivered last year!
+							</p>
+						</div>
+					</div>
+					<div class="hero-img-box">
+						<img class="hero-img" src="./content/assets/img/hero.png" alt="" />
+					</div>
 				</div>
-				<div class="hero__img-box">
-					<img
-						class="hero__img"
-						src="./content/assets/img/hero.png"
-						alt="woman eating food"
-					/>
-				</div>
-			</div>
-		</section>
+			</section>
+		</main>
 	</body>
 </html>
